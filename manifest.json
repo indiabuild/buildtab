@@ -1,6 +1,6 @@
 {
-  "name": "xyz",
-  "description": "xyz",
+  "name": "Buildtab",
+  "description": "Buildtab - IndiaBuild Tab override",
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
