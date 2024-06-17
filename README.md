@@ -1,6 +1,6 @@
 ## IndiaBuild - Browser Tab Override
 
-Its an Extension Which you can load in your application. This will make load custom page on every tab. So that you dont have to see Ads in case of Brave, or News in case of firefox. 
+Its an Extension Which you can load in your browser. This will load custom page on every **New Tab**. So that you dont have to see Ads in case of Brave, or News in case of firefox. 
 
 ![image](https://github.com/indiabuild/buildtab/assets/82411321/9f3796f3-06a4-444a-84aa-1376b7714053)
 
