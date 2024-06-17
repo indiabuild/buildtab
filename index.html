@@ -8,18 +8,84 @@
     <title>New Tab</title>
 
     <style>
-
-        h1 {
-            color: burlywood;
+        body {
+            background-image: url("./assets/bg.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
+        .noise::before{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            content: "";
+            /* you can control opacity of noise  */
+            opacity: .1;  
+            z-index: 1000;
+            pointer-events: none;
+            background: url("assets/noise.gif") ;
+        }
+
+        .hero {
+            font-size: 12em;
+            color:coral;
+            font-family: monospace;
+        }
+
+        .hero span {
+            color:crimson;
+        }
+
+        #clock {
+            color:aliceblue;
+            font-size: 14em;
+            font-weight: bold;
+            font-family: monospace;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 
 </head>
 
 <body>
+    <div class="noise"></div>
 
-    <h1>Hello</h1>
 
+    <div class="container">
+        <h1 class="hero">Build<span>.</span></h1>
+        <div id="clock">Loading..</div> 
+    </div>  
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const options = {
+                timeZone: 'Asia/Kolkata',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false
+            };
+            const formatter = new Intl.DateTimeFormat('en-GB', options);
+            const formattedTime = formatter.format(now);
+            document.getElementById('clock').textContent = formattedTime;
+        }
+
+        setInterval(updateClock, 1000);
+        updateClock();  // Initial call to display the clock immediately
+    </script>
 </body>
+
 </html>
