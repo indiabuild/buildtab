@@ -16,7 +16,13 @@ Its an Extension Which you can load in your browser. This will load custom page 
 
 Go ahead, download and unzip.
 
-#### 3. turn on Developer mode
+#### 3. Go to Extension Setting
+
+Open extension setting and go to manage extensions. 
+![image](https://github.com/indiabuild/buildtab/assets/82411321/5002bc12-74a1-40e2-9ad9-5e8b14742e2c)
+
+
+#### 4. turn on Developer mode
 
 in your browser head to the "Extensions" section. this can be found in the settings portion of your browser! checkout the screenshot below:<br>
 ![image](https://github.com/indiabuild/buildtab/assets/82411321/6882a604-e9bc-4bbf-ae7c-3289c4740d55)
@@ -26,7 +32,7 @@ once you get there you'll see "Developer mode" in the top right. make sure to to
 ![image](https://github.com/indiabuild/buildtab/assets/82411321/77a6bb56-38ba-479e-a133-b319988bee77)
 
 
-#### 4. add the app to your browser
+#### 5. add the app to your browser
 you're at the home stretch! press the "Load unpacked" option and then go to the folder where you saved buildspace os. it should look something like this:<br>
 
 ![image](https://github.com/indiabuild/buildtab/assets/82411321/34ea763b-ce67-4c7d-90ba-a14112ea3aab)
